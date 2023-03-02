@@ -32,9 +32,9 @@ class App{
 	}
 
 	private static function getRequestParameters(){
-
-		$current_dir = dirname($_SERVER['SCRIPT_NAME']);
+	    $current_dir = dirname($_SERVER['SCRIPT_NAME']);
 	    $request = explode('/',trim(str_replace($current_dir,'',$_SERVER['REQUEST_URI']),'/'));
+		
 	    self::$currency = $request[0]??'';
 	    self::$start_date = $request[1]??'';
 	    self::$end_date = $request[2]??'';
