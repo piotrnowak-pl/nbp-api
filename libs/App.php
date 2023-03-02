@@ -3,7 +3,7 @@
 class App{
 
 	public static $currency;
-	public static$start_date;
+	public static $start_date;
 	public static $end_date;
 
 	public static function run(){
