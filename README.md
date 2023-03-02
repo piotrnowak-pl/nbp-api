@@ -1,2 +1,2 @@
 # nbp-api
-Example user NPB Api in PHP
+Example usage NPB Api in PHP
